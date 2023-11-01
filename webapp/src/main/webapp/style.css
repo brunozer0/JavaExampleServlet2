@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.container, main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+
+}
+
+button{
+    border: 1px solid #000000;
+    border-radius: .3rem;
+    padding: .5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: lightseagreen;
+}
+button:hover{
+   background-color: green;
+    transition: .5s;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #ffff;
+}
+ul{
+    list-style: none;
+}
